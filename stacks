@@ -57,8 +57,6 @@ int peek(struct Stack* stack)
         return INT_MIN;
     return stack->array[stack->top];
 }
-  
-// Driver program to test above functions
 int main()
 {
     struct Stack* stack = createStack(100);
